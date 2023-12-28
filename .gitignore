@@ -1,0 +1,12 @@
+*.json
+models
+*.out
+beit3/beit3
+beit3/log
+beit3/results
+beit3/finetune_checkpoint_base
+beit3/finetune_checkpoint_large_indomain
+beit3/__pycache__
+tokenizer/kowiki-latest-pages-articles.xml.bz2
+tokenizer/merge_text.txt
+tokenizer/wikiextractor
