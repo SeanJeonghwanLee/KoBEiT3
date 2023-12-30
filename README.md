@@ -43,7 +43,10 @@
 │   │   │   │   ├── annotation.json
 │   │   │   │   ├── images.json
 │   │   │   │   ├── question.json
+│   │   ├── ...
+│   │
 │   ├── valid_labels
+│   │   ├── ...
 │
 ├── answer2label.txt
 ├── vqa.test.json
