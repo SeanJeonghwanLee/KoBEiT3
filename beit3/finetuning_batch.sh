@@ -4,17 +4,16 @@ echo "### START DATE=$(date)"
 echo "### HOSTNAME=$(hostname)"
 echo "### CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES"
  
-# conda 환경 활성화.
+# activate conda virtual environment
 source  ~/.bashrc
 conda   activate   svqa2
  
-# cuda 11.0 환경 구성.
+# cuda 11.0 environment
 ml purge
 ml load cuda/11.0
  
-# 활성화된 환경에서 코드 실행.
+# running code in the environment which has been activated
 
-export CUDA_VISIBLE_DEVICES=0,1,2,3
 python -m torch.distributed.launch --nproc_per_node=4 run_beit3_finetuning.py \
         --model beit3_large_indomain_patch16_224 \
         --input_size 224 \
@@ -38,7 +37,6 @@ python -m torch.distributed.launch --nproc_per_node=4 run_beit3_finetuning.py \
         --task_head_lr_weight 20 \
         --opt_betas 0.9 0.98 \
         --checkpoint_activations \
-        --resume ../beit3/finetune_checkpoint_large_indomain/checkpoint-6.pth
 
 
 echo "###"
