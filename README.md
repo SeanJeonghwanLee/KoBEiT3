@@ -20,8 +20,8 @@
 
 ## How to Finetune ##
 1. Prepare Korean Sentencepiece tokenizer
-  - TBD
-  * but, it can be found by searching on Google
+    - TBD
+    * but, it can be found by searching on Google
 
 
 2. Directory structure
@@ -57,33 +57,33 @@
 
 
 3. Preparing data needed
-  - run beit3/indexing.py
-  ```
-  python indexing.py
-  ```
-  after running the file, you will get answer2label.txt and json files
+    - run beit3/indexing.py
+    ```
+    python indexing.py
+    ```
+    - after running, you will get answer2label.txt and json files
 
 
 4. Fintuning (DistributedDataParallel)
-  - run the code below on your terminal, read and customize arguments based on your situation
-  ```
-  sh finetuning.sh
-  ```
-  - if your running environment is using SLURM, then use the code below
-  ```
-  sh finetuning_batch.sh
-  ```
-  
+    - run the code below on your terminal, read and customize arguments based on your situation
+    ```
+    sh finetuning.sh
+    ```
+    - if your running environment is using SLURM, then use the code below
+    ```
+    sh finetuning_batch.sh
+    ```
+
 
 ## How To Predict ##
 1. Prediction
-  - run the code below on your terminal
-  ```
-  sh prediction.sh
-  ```
-  - if your running environment is using SLURM, then use the code below
-  ```
-  sh prediction_batch.sh
-  ```
-  - if you are looking for the code only for one question, check the svqa pipeline
-  https://github.com/SeanJeonghwanLee/SpeechVQAPipeline
+    - run the code below on your terminal
+    ```
+    sh prediction.sh
+    ```
+    - if your running environment is using SLURM, then use the code below
+    ```
+    sh prediction_batch.sh
+    ```
+    - if you are looking for the code only for one question, check the svqa pipeline
+    https://github.com/SeanJeonghwanLee/SpeechVQAPipeline
