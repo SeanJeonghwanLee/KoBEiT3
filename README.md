@@ -24,31 +24,32 @@
   * but, it can be found by searching on Google
 
 2. Directory structure
-
-│KoBEiT3/ </br>
-├── beit3/ </br>
-│   ├── ... </br>
-│ </br>
-├── models/ </br>
-│   ├── smp.model </br>
-│   ├── beit3_large_indomain_patch16_224.zip </br>
-│ </br>
-├── images/ </br>
-│   ├── ... </br>
-│ </br>
-├── labels/ </br>
-│   ├── train_labels </br>
-│   │   ├── categories </br>
-│   │   │   ├── 상(중하)_train_categories </br>
-│   │   │   │   ├── annotation.json </br>
-│   │   │   │   ├── images.json </br>
-│   │   │   │   ├── question.json </br>
-│   ├── valid_labels </br>
-│ </br>
-├── answer2label.txt </br>
-├── vqa.test.json </br>
-├── vqa.train.json </br>
-├── vqa.val.json </br>
+```
+│KoBEiT3/
+├── beit3/
+│   ├── ...
+│
+├── models/
+│   ├── smp.model
+│   ├── beit3_large_indomain_patch16_224.zip
+│
+├── images/
+│   ├── ...
+│
+├── labels/
+│   ├── train_labels
+│   │   ├── categories
+│   │   │   ├── 상(중하)_train_categories
+│   │   │   │   ├── annotation.json
+│   │   │   │   ├── images.json
+│   │   │   │   ├── question.json
+│   ├── valid_labels
+│
+├── answer2label.txt
+├── vqa.test.json
+├── vqa.train.json
+├── vqa.val.json
+```
 
 3. Make asnwer2label.txt and json files
   - run beit3/indexing.py
