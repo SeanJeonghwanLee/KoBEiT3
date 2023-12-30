@@ -23,6 +23,7 @@
   - TBD
   * but, it can be found by searching on Google
 
+
 2. Directory structure
 ```
 │KoBEiT3/
@@ -54,9 +55,14 @@
 ├── vqa.val.json
 ```
 
-3. Make asnwer2label.txt and json files
+
+3. Preparing data needed
   - run beit3/indexing.py
+  ```
+  python indexing.py
+  ```
   after running the file, you will get answer2label.txt and json files
+
 
 4. Fintuning (DistributedDataParallel)
   - run the code below on your terminal, read and customize arguments based on your situation
@@ -67,6 +73,7 @@
   ```
   sh finetuning_batch.sh
   ```
+  
 
 ## How To Predict ##
 1. Prediction
