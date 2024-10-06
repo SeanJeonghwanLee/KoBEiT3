@@ -1,5 +1,11 @@
 # BEiT3 based Korean VQA Model #
+
+## Usage ##
+- Speech based VQA for the blind :  https://github.com/SeanJeonghwanLee/SpeechVQAPipeline
+
+## Checkpoint from ##
 - huggingface : https://huggingface.co/SeanForHim/KoBEiT3
+- google drive : https://drive.google.com/file/d/1joAtpHLq26ds6vmKn9AiAft48TQSgu6p/view?usp=drive_link
 
 ## Basic information ##
 ### Model ###
