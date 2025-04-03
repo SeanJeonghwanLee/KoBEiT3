@@ -5,7 +5,7 @@
 
 ## Checkpoint from ##
 - huggingface : https://huggingface.co/SeanForHim/KoBEiT3
-- google drive : https://drive.google.com/file/d/1joAtpHLq26ds6vmKn9AiAft48TQSgu6p/view?usp=drive_link
+- you can download the checkpoint from Huggingface repo
 
 ## Basic information ##
 ### Model ###
