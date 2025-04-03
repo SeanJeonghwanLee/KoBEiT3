@@ -5,7 +5,7 @@
 
 ## Checkpoint from ##
 - huggingface : https://huggingface.co/SeanForHim/KoBEiT3
-- you can download the checkpoint from Huggingface repo
+- ⬆️ you can download the checkpoint from Huggingface repo!
 
 ## Basic information ##
 ### Model ###
